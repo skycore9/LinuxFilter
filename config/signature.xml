@@ -1,0 +1,222 @@
+<signature version="2015-08">
+    <app name="qq" id="1">
+        <feature>
+            <prot>udp</prot>
+            <sigs>02 00 00 00 00 00 00 00 00 00 00 02 00 00</sigs>
+            <mask>FF 00 00 00 00 00 00 00 00 00 00 FF FF FF</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 31 02 30 13 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="webqq" id="2">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>50 4f 53 54 20 2f 6b 65 79 63 67 69 2f 71</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>50 4f 53 54 20 2f 63 67 69 2f 71 71 77 65</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="feition" id="3">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>52 20 66 65 74 69 6f 6e 2e 63 6f 6d 2e 63</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="yy" id="4">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 00 00 00 04 00 00 00 c8 00 40 00 00 00</sigs>
+            <mask>00 FF FF FF FF 00 FF FF FF FF FF FF 00 00</mask>
+        </feature>
+    </app>
+    <app name="aliwangwang" id="5">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>88 06 00 00 00 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF 00 FF FF 00 FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="tudou" id="6">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 66 34 76 2f 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="youku" id="7">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 79 6f 75 6b 75 2f 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="ppstream" id="8">
+        <feature>
+            <prot>udp</prot>
+            <sigs>15 80 51 10 10 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+        <feature>
+            <prot>udp</prot>
+            <sigs>8f 80 cb da da 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+        <feature>
+            <prot>udp</prot>
+            <sigs>00 00 43 00 00 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>00 FF FF FF FF 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    
+    <app name="qqmusic" id="9">
+        <feature>
+            <prot>udp</prot>
+            <sigs>fe 00 00 00 00 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF 00 FF FF 00 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="kwmusic" id="10">
+        <feature>
+            <prot>udp</prot>
+            <sigs>80 00 00 00 00 00 00 00 00 00 80 00 00 00</sigs>
+            <mask>FF FF 00 00 00 00 00 00 00 00 FF FF 00 00</mask>
+        </feature>
+    </app>
+    <app name="qqgame" id="11">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 5e 00 00 00 00 00 00 ff ff 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF 00 FF FF FF FF FF FF</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 00 02 50 06 08 00 00 00 00 00 00 00 00</sigs>
+            <mask>00 00 FF FF FF FF 00 00 00 00 00 00 00 00</mask>
+        </feature>
+        <feature>
+            <prot>udp</prot>
+            <sigs>02 50 06 08 25 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF 00 00 00 00 00 00 00 00 00</mask>
+        </feature>
+         <feature>
+            <prot>tcp</prot>
+            <sigs>00 48 2d 00 00 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF 00 00 00 00 00 00 00 00</mask>
+        </feature>       
+    </app>
+    <app name="baiduhi" id="12">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 00 01 00 31 56 4d 49 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF 00 FF FF FF 00 00</mask>
+        </feature>
+    </app>
+    <app name="qq_xuanwu" id="13">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>14 00 00 00 00 00 00 00 09 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF 00 00 00 00 FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="paopaotang" id="14">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>00 00 96 ca 53 90 00 00 00 00 00 00 00 00</sigs>
+            <mask>00 00 FF FF FF F0 00 00 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="xinlang_weibo" id="15">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 61 6a 61 78 6c 6f 67 69 6e</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="qq_weibo" id="16">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 6c 6f 67 69 6e 3f 70 74 6c</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 74 61 6f 7a 69 6c 69 74 74</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="taobao" id="18">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 6d 79 5f 74 61 6f 62 61 6f</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="vs" id="19">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>3c 3f 78 6d 6c 20 76 65 72 73 69 6f 6e 3d</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF FF</mask>
+        </feature>
+    </app>
+    <app name="pptv" id="20">
+        <feature>
+            <prot>udp</prot>
+            <sigs>00 00 00 00 00 00 00 00 00 0c 01 00 00 00</sigs>
+            <mask>00 00 00 00 00 00 00 FF FF FF FF FF FF 00</mask>
+        </feature>
+        <feature>
+            <prot>udp</prot>
+            <sigs>00 00 00 00 00 00 00 00 00 01 0b 01 00 00</sigs>
+            <mask>00 00 00 00 00 00 00 00 00 FF FF FF FF FF</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 30 2f 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF 00 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="remote_desktop" id="21">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>03 00 00 00 00 00 00 00 00 00 00 00 00 00</sigs>
+            <mask>FF FF FF 00 00 00 FF FF 00 00 00 00 00 00</mask>
+        </feature>
+    </app>
+    <app name="115" id="22">
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 3f 63 74 3d 61 6a 61 78 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF 00</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 3f 63 74 3d 66 69 6c 65 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF 00</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>47 45 54 20 2f 67 64 6f 77 6e 00 00 00 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF 00 00 00 00</mask>
+        </feature>
+        <feature>
+            <prot>tcp</prot>
+            <sigs>50 4f 53 54 20 2f 75 70 73 2f 75 70 3f 00</sigs>
+            <mask>FF FF FF FF FF FF FF FF FF FF FF FF FF 00</mask>
+        </feature>
+    </app>
+	<app name="http" id="80">
+		<feature>
+			<prot>tcp</prot>
+			<sigs>50 4f 53 54 00 00 00 00 00 00 00 00 00 00</sigs>
+			<mask>FF FF FF FF 00 00 00 00 00 00 00 00 00 00</mask>
+		</feature>
+	</app>
+</signature>
